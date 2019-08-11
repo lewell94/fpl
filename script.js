@@ -8,7 +8,7 @@ const colors = [
   'rgba(121,85,72,1)',
 ];
 
-function doChart(data) {
+function doChart(data, type) {
   const labels = data.map(week => week.name);
   const datasets = [];
 
@@ -16,18 +16,18 @@ function doChart(data) {
     week.table.forEach((w, i) => {
       if (weekIndex === 0) {
         datasets.push({
-          label: w.person,
+          label: toAdd.person,
           data: [],
           backgroundColor: colors[i]
         });
       }
 
       const point = datasets.find(p => p.label === w.person);
-      point.data.push(w.points);
+      point.data.push(w[type]);
     });
   });
 
-  const ctx = document.getElementById("chart").getContext("2d");
+  const ctx = document.getElementById(`${type}-chart`).getContext("2d");
   new Chart(ctx, {
     type: "line",
     data: {
@@ -66,6 +66,10 @@ function doAgGrid(data) {
     {
       headerName: "Points",
       field: "points"
+    },
+    {
+      headerName: "Overall Rank",
+      field: "overall"
     }
   ];
 
@@ -99,7 +103,8 @@ function load(data) {
     return;
   }
 
-  doChart(data);
+  doChart(data, 'points');
+  doChart(data, 'overall');
   doAgGrid(data);
 }
 
