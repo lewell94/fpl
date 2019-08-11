@@ -1,6 +1,54 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-balham.css">
+  </head>
   <body>
-    <script src="script.js" async defer></script>
+    <canvas id="chart" width="1000" height="300"></canvas>
+    <div id="grid" class="ag-theme-balham" style="height: 240px; width: 817px;"></div>
+    <select id="select">
+      <option class="option" value="0">Week 1</option>
+      <option class="option" value="1">Week 2</option>
+      <option class="option" value="2">Week 3</option>
+      <option class="option" value="3">Week 4</option>
+      <option class="option" value="4">Week 5</option>
+      <option class="option" value="5">Week 6</option>
+      <option class="option" value="6">Week 7</option>
+      <option class="option" value="7">Week 8</option>
+      <option class="option" value="8">Week 9</option>
+      <option class="option" value="9">Week 10</option>
+      <option class="option" value="10">Week 11</option>
+      <option class="option" value="11">Week 12</option>
+      <option class="option" value="12">Week 13</option>
+      <option class="option" value="13">Week 14</option>
+      <option class="option" value="14">Week 15</option>
+      <option class="option" value="15">Week 16</option>
+      <option class="option" value="16">Week 17</option>
+      <option class="option" value="17">Week 18</option>
+      <option class="option" value="18">Week 19</option>
+      <option class="option" value="19">Week 20</option>
+      <option class="option" value="20">Week 21</option>
+      <option class="option" value="21">Week 22</option>
+      <option class="option" value="22">Week 23</option>
+      <option class="option" value="23">Week 24</option>
+      <option class="option" value="24">Week 25</option>
+      <option class="option" value="25">Week 26</option>
+      <option class="option" value="26">Week 27</option>
+      <option class="option" value="27">Week 28</option>
+      <option class="option" value="28">Week 29</option>
+      <option class="option" value="29">Week 30</option>
+      <option class="option" value="30">Week 31</option>
+      <option class="option" value="31">Week 32</option>
+      <option class="option" value="32">Week 33</option>
+      <option class="option" value="33">Week 34</option>
+      <option class="option" value="34">Week 35</option>
+      <option class="option" value="35">Week 36</option>
+      <option class="option" value="36">Week 37</option>
+      <option class="option" value="37">Week 38</option>
+    </select>
+    <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
