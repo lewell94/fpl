@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Week 1",
+    "table": [
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 81
+      },
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 77
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 76
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 60
+      },
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 60
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 55
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 48
+      }
+    ]
+  }
+]
