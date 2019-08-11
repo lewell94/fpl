@@ -16,7 +16,7 @@ function doChart(data, type) {
     week.table.forEach((w, i) => {
       if (weekIndex === 0) {
         datasets.push({
-          label: toAdd.person,
+          label: w.person,
           data: [],
           backgroundColor: colors[i]
         });
