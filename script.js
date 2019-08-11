@@ -103,6 +103,6 @@ function load(data) {
   doAgGrid(data);
 }
 
-fetch("https://bitbucket.org/lewell94/fpl/raw/045ccc95f74a89d6c5578b2247d5f61856e6e49a/fpl.json")
+fetch("https://raw.githubusercontent.com/lewell94/fpl/master/fpl.json")
   .then(res => res.json())
   .then(load);
