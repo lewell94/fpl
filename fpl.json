@@ -7,43 +7,119 @@
         "person": "Elliot",
         "team": "Admiral Ackbarkley",
         "points": 88,
-        "overall": 397369
+        "overall": 397369,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Lewis",
         "team": "Pjanic at the Isco",
         "points": 87,
-        "overall": 458690
+        "overall": 458690,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Ross Whitehouse",
         "team": "Two ThumbSchlupp",
         "points": 81,
-        "overall": 930460
+        "overall": 930460,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Ross Watson",
         "team": "FC Espírito",
         "points": 81,
-        "overall": 930460
+        "overall": 930460,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Calum",
         "team": "Netflix & Chilwell",
         "points": 76,
-        "overall": 1443584
+        "overall": 1443584,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Sam",
         "team": "Arter the Party",
         "points": 68,
-        "overall": 2382761
+        "overall": 2382761,
+        "transfersIn": [],
+        "transfersOut": []
       },
       {
         "person": "Will",
         "team": "It’s a Knockaert",
         "points": 57,
-        "overall": 3784325
+        "overall": 3784325,
+        "transfersIn": [],
+        "transfersOut": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Week 2",
+    "table": [
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 131,
+        "overall": 530217,
+        "transfersIn": [],
+        "transfersOut": []
+      },
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 131,
+        "overall": 557458,
+        "transfersIn": ["Ederson"],
+        "transfersOut": ["Alisson"]
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 124,
+        "overall": 959840,
+        "transfersIn": [],
+        "transfersOut": []
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 121,
+        "overall": 1191320,
+        "transfersIn": ["Lloris", "Steklenburg", "van Dijk", "Fraser", "King", "Jiminez", "Jota"],
+        "transfersOut": ["Pickford", "Button", "Digne", "Mahrez", "Kean", "Pukki", "Maupay"]
+      },
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 118,
+        "overall": 1441224,
+        "transfersIn": [],
+        "transfersOut": []
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 106,
+        "overall": 2623420,
+        "transfersIn": [],
+        "transfersOut": []
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 97,
+        "overall": 3639025,
+        "transfersIn": ["Ake", "Bernardo Silva"],
+        "transfersOut": ["Maitland-Niles", "Martial"]
       }
     ]
   }
