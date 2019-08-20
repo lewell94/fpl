@@ -8,7 +8,7 @@ const colors = [
   'rgba(121,85,72,1)',
 ];
 
-function doChart(data, type) {
+function doChart(data, type, title) {
   const labels = data.map(week => week.name);
   const datasets = [];
 
@@ -18,7 +18,8 @@ function doChart(data, type) {
         datasets.push({
           label: w.person,
           data: [],
-          backgroundColor: colors[i]
+          borderColor: colors[i],
+          backgroundColor: 'rgba(255,255,255,0)'
         });
       }
 
@@ -35,6 +36,10 @@ function doChart(data, type) {
       datasets
     },
     options: {
+      title: {
+        display: true,
+        text: title
+      },
       scales: {
         yAxes: [
           {
@@ -53,30 +58,48 @@ function doAgGrid(data) {
   const columnDefs = [
     {
       headerName: "Position",
-      valueGetter: params => params.node.rowIndex + 1
+      valueGetter: params => params.node.rowIndex + 1,
+      resizable: true
     },
     {
       headerName: "Player",
-      field: "person"
+      field: "person",
+      resizable: true
     },
     {
       headerName: "Team",
-      field: "team"
+      field: "team",
+      resizable: true
     },
     {
       headerName: "Points",
-      field: "points"
+      field: "points",
+      resizable: true
     },
     {
       headerName: "Overall Rank",
-      field: "overall"
+      field: "overall",
+      resizable: true
+    },
+    {
+      headerName: "Transfers In",
+      field: "transfersIn",
+      resizable: true,
+      valueFormatter: node => node.value.join(', ')
+    },
+    {
+      headerName: "Transfers Out",
+      field: "transfersOut",
+      resizable: true,
+      valueFormatter: node => node.value.join(', ')
     }
   ];
 
   const rowData = data[defaultWeek].table;
   const gridOptions = {
     columnDefs,
-    rowData
+    rowData,
+    onGridReady: params => params.api.sizeColumnsToFit()
   };
 
   const grid = new agGrid.Grid(document.querySelector("#grid"), gridOptions);
@@ -87,6 +110,10 @@ function doAgGrid(data) {
 
     if (!data[index]) {
       option.disabled = true;
+    }
+
+    if (index === defaultWeek) {
+      option.selected = true;
     }
   });
 
@@ -103,8 +130,8 @@ function load(data) {
     return;
   }
 
-  doChart(data, 'points');
-  doChart(data, 'overall');
+  doChart(data, 'points', 'Points (Higher is Better)');
+  doChart(data, 'overall', 'Overall Rank (Lower is Better)');
   doAgGrid(data);
 }
 
