@@ -9,7 +9,8 @@
         "points": 88,
         "overall": 397369,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Lewis",
@@ -17,7 +18,8 @@
         "points": 87,
         "overall": 458690,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Ross Whitehouse",
@@ -25,7 +27,8 @@
         "points": 81,
         "overall": 930460,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Ross Watson",
@@ -33,7 +36,8 @@
         "points": 81,
         "overall": 930460,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Calum",
@@ -41,7 +45,8 @@
         "points": 76,
         "overall": 1443584,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Sam",
@@ -49,7 +54,8 @@
         "points": 68,
         "overall": 2382761,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Will",
@@ -57,7 +63,8 @@
         "points": 57,
         "overall": 3784325,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       }
     ]
   },
@@ -71,7 +78,8 @@
         "points": 131,
         "overall": 530217,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Lewis",
@@ -79,7 +87,8 @@
         "points": 131,
         "overall": 557458,
         "transfersIn": ["Ederson"],
-        "transfersOut": ["Alisson"]
+        "transfersOut": ["Alisson"],
+        "chip": ""
       },
       {
         "person": "Ross Watson",
@@ -87,7 +96,8 @@
         "points": 124,
         "overall": 959840,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Will",
@@ -95,7 +105,8 @@
         "points": 121,
         "overall": 1191320,
         "transfersIn": ["Lloris", "Steklenburg", "van Dijk", "Fraser", "King", "Jiminez", "Jota"],
-        "transfersOut": ["Pickford", "Button", "Digne", "Mahrez", "Kean", "Pukki", "Maupay"]
+        "transfersOut": ["Pickford", "Button", "Digne", "Mahrez", "Kean", "Pukki", "Maupay"],
+        "chip": "Wildcard"
       },
       {
         "person": "Ross Whitehouse",
@@ -103,7 +114,8 @@
         "points": 118,
         "overall": 1441224,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Calum",
@@ -111,7 +123,8 @@
         "points": 106,
         "overall": 2623420,
         "transfersIn": [],
-        "transfersOut": []
+        "transfersOut": [],
+        "chip": ""
       },
       {
         "person": "Sam",
@@ -119,7 +132,77 @@
         "points": 97,
         "overall": 3639025,
         "transfersIn": ["Ake", "Bernardo Silva"],
-        "transfersOut": ["Maitland-Niles", "Martial"]
+        "transfersOut": ["Maitland-Niles", "Martial"],
+        "chip": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Week 3",
+    "table": [
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 196,
+        "overall": 131984,
+        "transfersIn": ["Rico", "Dendonkcer"],
+        "transfersOut": ["Lundstram", "Cantwell"],
+        "chip": ""
+      },
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 190,
+        "overall": 242980,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 186,
+        "overall": 375476,
+        "transfersIn": ["Robertson", "Perez", "King"],
+        "transfersOut": ["Soyuncu", "De Bruyne", "Pukki"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 170,
+        "overall": 1105395,
+        "transfersIn": ["Ederson", "TAA", "Cathcart", "Ake", "Kelly", "Salah", "Moura", "Milijojevic", "Kante", "Wood", "Greenwood"],
+        "transfersOut": ["Patricio", "Dunk", "Digne", "Lundstram", "Boly", "Mane", "Martial", "De Bruyne", "Cantwell", "Pukki", "Wickham"],
+        "chip": "Wildcard"
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 167,
+        "overall": 1301211,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 158,
+        "overall": 2008479,
+        "transfersIn": ["Mahrez", "Kean"],
+        "transfersOut": ["Douglas Luiz", "Kane"],
+        "chip": ""
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 147,
+        "overall": 2918879,
+        "transfersIn": ["van Dijk", "Maitland-Niles", "Salah", "Sigurdsson", "Neves", "Kean", "Wilson"],
+        "transfersOut": ["Dunk", "Lundstram", "De Bruyne", "Sterling", "Trossard", "Firmino", "Barnes"],
+        "chip": "Wildcard"
       }
     ]
   }

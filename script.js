@@ -82,6 +82,11 @@ function doAgGrid(data) {
       resizable: true
     },
     {
+      headerName: "Chip",
+      field: "chip",
+      resizable: true
+    },
+    {
       headerName: "Transfers In",
       field: "transfersIn",
       resizable: true,
