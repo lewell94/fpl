@@ -205,5 +205,74 @@
         "chip": "Wildcard"
       }
     ]
+  },
+  {
+    "id": 4,
+    "name": "Week 4",
+    "table": [
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 242,
+        "overall": 495139,
+        "transfersIn": ["Mount", "Pukki"],
+        "transfersOut": ["Jota", "Aubameyang"],
+        "chip": ""
+      },
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 238,
+        "overall": 657964,
+        "transfersIn": ["Pukki"],
+        "transfersOut": ["Jiminez"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 236,
+        "overall": 766937,
+        "transfersIn": ["Mount"],
+        "transfersOut": ["Perez"],
+        "chip": ""
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 225,
+        "overall": 1379378,
+        "transfersIn": ["Silva", "Mount"],
+        "transfersOut": ["Perez", "Fraser"],
+        "chip": ""
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 225,
+        "overall": 1393777,
+        "transfersIn": ["Cantwell"],
+        "transfersOut": ["Stephens"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 223,
+        "overall": 1507877,
+        "transfersIn": ["McGinn"],
+        "transfersOut": ["Martial"],
+        "chip": ""
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 212,
+        "overall": 2354719,
+        "transfersIn": ["Maddison", "Pukki"],
+        "transfersOut": ["Martial", "Barnes"],
+        "chip": ""
+      }
+    ]
   }
 ]
