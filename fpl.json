@@ -274,5 +274,74 @@
         "chip": ""
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Week 5",
+    "table": [
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 297,
+        "overall": 499598,
+        "transfersIn": ["Abraham"],
+        "transfersOut": ["Wesley"],
+        "chip": ""
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 289,
+        "overall": 817148,
+        "transfersIn": ["Pieters"],
+        "transfersOut": ["Hobelas"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 281,
+        "overall": 1274435,
+        "transfersIn": ["Otamendi"],
+        "transfersOut": ["Laporte"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 280,
+        "overall": 1300457,
+        "transfersIn": ["Otamendi"],
+        "transfersOut": ["Boly"],
+        "chip": ""
+      },
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 279,
+        "overall": 1396049,
+        "transfersIn": ["de Bruyne", "Hayden"],
+        "transfersOut": ["Perez", "Sigurdsson"],
+        "chip": ""
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 262,
+        "overall": 2552916,
+        "transfersIn": ["Lundstram", "Vardy"],
+        "transfersOut": ["TAA", "Maupay"],
+        "chip": ""
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 252,
+        "overall": 3229804,
+        "transfersIn": ["TAA"],
+        "transfersOut": ["Robertson"],
+        "chip": ""
+      }
+    ]
   }
 ]

@@ -36,6 +36,11 @@ function doChart(data, type, title) {
       datasets
     },
     options: {
+      elements: {
+        line: {
+          tension: 0
+        }
+      },
       title: {
         display: true,
         text: title
