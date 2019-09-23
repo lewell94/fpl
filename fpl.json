@@ -343,5 +343,74 @@
         "chip": ""
       }
     ]
+  },
+  {
+    "id": 6,
+    "name": "Week 6",
+    "table": [
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 361,
+        "overall": 371301,
+        "transfersIn": ["Rico"],
+        "transfersOut": ["Otamendi"],
+        "chip": ""
+      },
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 353,
+        "overall": 603228,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 350,
+        "overall": 693749,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 348,
+        "overall": 781688,
+        "transfersIn": ["Rico", "Kelly", "Mane", "Cantwell", "Hayden", "Abraham", "Auba"],
+        "transfersOut": ["Otamendi", "Digne", "Salah", "Mount", "Dendoncker", "Jota", "Wickham"],
+        "chip": "Wildcard"
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 344,
+        "overall": 956271,
+        "transfersIn": ["Mount", "Abraham"],
+        "transfersOut": ["Maddison", "Vardy"],
+        "chip": ""
+      },
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 341,
+        "overall": 1068602,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 326,
+        "overall": 1870272,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      }
+    ]
   }
 ]
