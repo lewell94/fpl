@@ -412,5 +412,74 @@
         "chip": ""
       }
     ]
+  },
+  {
+    "id": 7,
+    "name": "Week 7",
+    "table": [
+      {
+        "person": "Ross Whitehouse",
+        "team": "Two ThumbSchlupp",
+        "points": 419,
+        "overall": 272291,
+        "transfersIn": ["Mount", "Wickham"],
+        "transfersOut": ["Sterling", "Aguero"],
+        "chip": ""
+      },
+      {
+        "person": "Calum",
+        "team": "Netflix & Chilwell",
+        "points": 414,
+        "overall": 365885,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Elliot",
+        "team": "Admiral Ackbarkley",
+        "points": 411,
+        "overall": 450912,
+        "transfersIn": ["Digne", "Wilson"],
+        "transfersOut": ["Pieters", "Abraham"],
+        "chip": ""
+      },
+      {
+        "person": "Ross Watson",
+        "team": "FC Espírito",
+        "points": 402,
+        "overall": 709079,
+        "transfersIn": [],
+        "transfersOut": [],
+        "chip": ""
+      },
+      {
+        "person": "Sam",
+        "team": "Arter the Party",
+        "points": 395,
+        "overall": 997688,
+        "transfersIn": ["Trossard"],
+        "transfersOut": ["Tielemans"],
+        "chip": ""
+      },
+      {
+        "person": "Lewis",
+        "team": "Pjanic at the Isco",
+        "points": 378,
+        "overall": 1830440,
+        "transfersIn": ["Neves", "Sigurdsson"],
+        "transfersOut": ["Cantwell", "Mane"],
+        "chip": ""
+      },
+      {
+        "person": "Will",
+        "team": "It’s a Knockaert",
+        "points": 369,
+        "overall": 2352628,
+        "transfersIn": ["Kane", "Vardy"],
+        "transfersOut": ["Abraham", "Aguero"],
+        "chip": ""
+      }
+    ]
   }
 ]
